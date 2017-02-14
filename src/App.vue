@@ -15,10 +15,10 @@
 </template>
 
 <script>
-    import Servers from './Servers.vue';
-    import Header from './Header.vue';
-    import Footer from './Footer.vue';
-    import Details from './Details.vue';
+    import Servers from './components/Server/Servers.vue';
+    import Header from './components/Shared/Header.vue';
+    import Footer from './components/Shared/Footer.vue';
+    import Details from './components/Server/Details.vue';
     export default {
         components: {
             serversCmp: Servers,
